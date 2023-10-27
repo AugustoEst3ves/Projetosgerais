@@ -1,0 +1,37 @@
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 25px;
+    
+}
+
+.buttonfooter{
+    font-size: 10px;
+    padding: 7px 7px;
+    justify-content: end;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+
+.logo-onefooter{
+    width: 100px;
+    height: 30px;
+       
+}
+
+.escrita{
+    color: white;
+    margin-bottom: 8px;
+}
+.div{
+    display: flex;
+    align-items: center;
+}
+
+

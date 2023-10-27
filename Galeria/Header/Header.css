@@ -1,0 +1,41 @@
+#header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.logo-one{
+    width: 100px;
+    height: 30px;    
+}
+
+.navHeader{
+    display: flex;
+    gap: 10px;
+}
+
+.buttonHeader{
+    font-size: 10px;
+    padding: 7px 7px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.buttonHeader:hover{
+    border-color: red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}

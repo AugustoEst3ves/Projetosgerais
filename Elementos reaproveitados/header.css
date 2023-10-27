@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #101026;
+}
+
+.text{
+    color: white;
+    padding-right: 10px;
+}
+
+.navBar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 10px;
+}
+
+.navItem {
+    list-style: none;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+    justify-content: space-between;
+}
+
+.navLink:hover {
+    color: #0088d2;
+}
+
+.hamburguer {
+    display: none;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.imgLogo {
+    width: auto;
+    height: 70px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+    
+}
+
+.imgFooter {
+    width: auto;
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+
+    .hamburguer {
+        display: block;
+    }
+
+    .hamburguer.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburguer.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburguer.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navMenu {
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        gap: 0px;
+        border-radius: 0px 0px 10px 10px;
+        background-color: #101026;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    .navItem {
+        margin: 16px 0px;
+    }
+
+    .navMenu.active {
+        right: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
