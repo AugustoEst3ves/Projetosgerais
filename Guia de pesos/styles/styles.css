@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.divall{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    background-color: lightblue;
+}
+
+
+.image_caminhao{
+width: 400px;
+height: 250px;
+
+}
+
+.image_caminhao:hover{
+    border: 2px solid black;
+    scale: 1.01;
+    
+}
+
+.titlecaminhao{
+    margin-left: 30px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.buttonHeader{
+    width: 400px;
+    height: 280px;
+    
+}

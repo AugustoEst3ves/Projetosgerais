@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+.title{
+    background-color: rgb(2, 89, 204);
+    padding: 1%;
+    font-size: 300%;
+    color: aliceblue;
+    text-align: center;
+    cursor:default;
+}
+
+.alert{
+    padding: auto;
+    background-color: cadetblue;
+    text-align: center;
+   
+}
+
+.footerSpace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(2, 89, 204);
+    height: 100px;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.imgFooter {
+    width: auto;
+    height: 70px;
+}
